@@ -9,7 +9,7 @@ import java.util.Map;
 import javax.imageio.ImageIO;
 import org.apache.commons.io.*;
 
-public class attendanceMain {
+public class AttendanceMain {
 	
 	public static final String IMG_PATH = "CSEChairs03.jpg";
 	public static final String STUDENT_DIRECTORY = "sandbox/students";
