@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="downloads/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="downloads/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="downloads/fluent-hc-4.5.3.jar"/>
-	<classpathentry kind="lib" path="downloads/httpclient-4.5.3.jar"/>
-	<classpathentry kind="lib" path="downloads/httpclient-cache-4.5.3.jar"/>
-	<classpathentry kind="lib" path="downloads/httpclient-win-4.5.3.jar"/>
-	<classpathentry kind="lib" path="downloads/httpcore-4.4.6.jar"/>
-	<classpathentry kind="lib" path="downloads/httpmime-4.5.3.jar"/>
-	<classpathentry kind="lib" path="downloads/jna-4.1.0.jar"/>
-	<classpathentry kind="lib" path="downloads/jna-platform-4.1.0.jar"/>
-	<classpathentry kind="lib" path="downloads/commons-io-2.6.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry including="**/*.java" kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry exported="true" kind="lib" path="downloads/commons-codec-1.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="downloads/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="downloads/fluent-hc-4.5.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="downloads/httpclient-4.5.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="downloads/httpclient-cache-4.5.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="downloads/httpclient-win-4.5.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="downloads/httpcore-4.4.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="downloads/httpmime-4.5.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="downloads/jna-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="downloads/jna-platform-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="downloads/commons-io-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="downloads/face.jar"/>
+	<classpathentry kind="lib" path="downloads/gson-2.6.2.jar"/>
+	<classpathentry kind="output" path="src"/>
 </classpath>

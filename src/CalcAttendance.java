@@ -4,8 +4,9 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.*;
-
 import javax.imageio.ImageIO;
+
+
 
 public class CalcAttendance {
 	private BufferedImage image;
