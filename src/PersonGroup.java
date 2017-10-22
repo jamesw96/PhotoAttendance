@@ -26,7 +26,7 @@ public class PersonGroup
          // NOTE: You must use the same region in your REST call as you used to obtain your subscription keys.
          //   For example, if you obtained your subscription keys from westus, replace "westcentralus" in the 
          //   URL below with "westus".
-         URIBuilder builder = new URIBuilder("https://westcentralus.api.cognitive.microsoft.com/face/v1.0/persongroups/" +
+         URIBuilder builder = new URIBuilder("https://westus.api.cognitive.microsoft.com/face/v1.0/persongroups/" +
                                              personGroupId);
 
          URI uri = builder.build();
