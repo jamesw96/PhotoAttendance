@@ -48,7 +48,7 @@ public class CalcAttendance {
 		return studentCount;
 	}
 	
-	// Writes data out to a .csv file
+	// Writes data out to a .csv file 
 	public File writeToCSV() throws FileNotFoundException {
 		File attendanceSheet = new File("attendence_" + 
 				Calendar.getInstance().toString() + ".csv");
