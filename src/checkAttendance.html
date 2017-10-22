@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+		<html>
+			<head>
+				<meta charset="utf-8" />
+				<title>We Can Count!</title>
+				<script type="text/javascript" src="submit.js"></script>
+			</head>
+
+	<body>
+				
+
+		<div id="main">
+			<p>
+				If you don't want to count, <br />
+				then let us do the work for you!
+			</p>
+
+			<p>
+				Don't forget to upload your zip folder of individual students' photos<br />
+				and the photo of your overall classroom!
+			</p>
+
+			<form id="loginform" action="uploadFiles.php" method="post">
+
+				
+				<strong>Your students individual pictures (.zip)</strong>
+				<div class="file-selector-container" style>
+					<input name="individualPictures" type ="file" accept = ".zip">
+				</div>
+				
+				
+				<strong>Your classroom picture (.jpg) </strong>
+				<div class="file-selector-container" style>
+					<input name="classPicture"type ="file" accept = ".jpg">
+				</div>
+				
+				
+				<div><input type="submit" value="Calculate!" /></div>
+			</form>
+
+		</div>
+
+		<div id="getresults"> 
+				<p>How do you want the information back </p>
+				<button id="csvbutton">Return csv file</button>
+				<button id="displaytable"> Display Table </button> 
+			</div>
+			
+			<div id ="table"> 
+		</div>
+
+	</body>
+</html>
